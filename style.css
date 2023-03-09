@@ -1,0 +1,133 @@
+header {
+    background-color: #f1f1f1;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    max-width: 80px;
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-actions button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .header-actions button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    
+    nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .header-logo {
+      margin-top: 20px;
+    }
+    
+    .header-actions {
+      margin-top: 20px;
+    }
+    
+    .header-actions button {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left img {
+    max-width: 100%;
+  }
+  
+  .footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-right ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-contact p {
+    margin: 0;
+  }
+  
+  
